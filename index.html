@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimmina</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- BOX ICONS -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <section class="header" id="home">
+        <!-- TITLE -->
+        <div class="home">
+            <div class="home_title">
+                <div class="home_intro">
+                    <span class="title_center title">Challenger</span>
+                    <span class="title_top">
+                        매일 <strong>변화</strong> 하며 <strong>성장</strong> 해나가는
+                    </span>
+                    <span class="title_bottom">
+                        웹퍼블리셔 <strong>김미나</strong> 입니다.
+                    </span>
+                </div>
+            </div>  
+        </div>
+        <!-- BACKGROUND -->
+        <div class="layer home_bg"></div><!--  배경 -->
+        <div class="stars"><!-- 별똥별 -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="layer home_grass home_ani"></div><!-- 잔디 -->
+        <div class="home_woman home_ani"></div><!-- 여자 -->
+        <div class="layer home_grass2 home_ani"></div><!-- 잔디 -->
+        <!-- NAV -->
+        <nav class="nav" id="nav">
+            <a href="#" class="nav_logo title">KMN</a>
+            <div class="nav_wrap" id="nav-wrap">
+                <div class="nav_menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link nav-active">HOME</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">ABOUT</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skill" class="nav_link">SKILL</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#project" class="nav_link">PROJECT</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#clone" class="nav_link">CLONE</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#animation" class="nav_link">ANIMATION</a>
+                        </li>
+                        <!-- <li class="nav_item">
+                            <a href="#contact" class="nav_link">CONTACT</a>
+                        </li> -->
+                    </ul>
+                    <div class="nav_close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_hamburger" id="nav-hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </section>
+    <!-- END HEADER -->
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <div class="about_container container">
+                <!-- <h1 class="about_title title">About Me</h1> -->
+                <div class="about_content">
+                    <div class="about_left">
+                        <!-- <div class="about_name">Kim <br>mina</div> -->
+                        <img src="./images/mina.jpg" alt="profile" class="about_img">
+                    </div>
+                    <div class="about_right">
+                        <div class="about_intro box">
+                            <h2>INTRO</h2>
+                            <p>하늘이 내린 최고의 조합, 치킨과 맥주! 매년 여름, 대구에서 치킨과 맥주의 기막힌 조합을 테마로 한 대구치맥페스티벌이 열린다. 치맥페스티벌이라는 말 그대로 축제 기간 동안 맛있는 치킨과 시원한 맥주를 마음껏 즐기며 가수들의 공연을 관람할 수 있다. 유명 치킨프렌차이즈들이 참여하기 때문에 다양한 치킨을 한자리에서 골고루 맛볼 수 있는 절호의 기회이기도 하다. 시원한 얼음물에 발을 담그고 치맥을 즐길 수 있는 공간도 마련되어 있다. 유명 가수들의 축하공연과 DJ들의 신나는 EDM파티가 열리며, 밤 9시 9분에는 모두 함께 건배를 외치는 치맥 99 건배 타임이라는 재미있는 이벤트도 진행된다.</p>
+                        </div>
+                        <div class="about_certi box">
+                            <h2>CERTIFICATES</h2>
+                            <div class="certi_container">
+                                <div class="certi_item">
+                                    <img src="./images/ico_ce.png" alt="web_design_certificate" class="certi_img">
+                                    <p>웹디자인기능사</p>
+                                </div>
+                                <div class="certi_item">
+                                    <img src="./images/ico_ce2.png" alt="computer_certificate" class="certi_img">
+                                    <p>컴퓨터활용능력1급</p>
+                                </div>
+                                <div class="certi_item">
+                                    <img src="./images/ico_ce3.png" alt="photoshop_certificate" class="certi_img">
+                                    <p>GTQ1급</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about_skill box">
+                            <h2>SKILLS</h2>
+                            <div class="skill_container">
+                                <div class="skill_item">
+                                    <div class="skill_chart">
+                                        <div class="chart_outer">
+                                            <div class="chart_inner">
+                                                <div id="chart-number">90%</div>
+                                            </div>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" heigth="130px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#f8909e"/>
+                                                    <stop offset="100%" stop-color="#f8aa9f"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="65" cy="65" r="55" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <p>HTML</p>
+                                </div>
+                                <div class="skill_item">
+                                    <div class="skill_chart">
+                                        <div class="chart_outer">
+                                            <div class="chart_inner">
+                                                <div id="chart-number">90%</div>
+                                            </div>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" heigth="130px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#f8909e"/>
+                                                    <stop offset="100%" stop-color="#f8aa9f"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="65" cy="65" r="55" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <p>CSS</p>
+                                </div>
+                                <div class="skill_item">
+                                    <div class="skill_chart">
+                                        <div class="chart_outer">
+                                            <div class="chart_inner">
+                                                <div id="chart-number">90%</div>
+                                            </div>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" heigth="130px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#f8909e"/>
+                                                    <stop offset="100%" stop-color="#f8aa9f"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="65" cy="65" r="55" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <p>JavaScript</p>
+                                </div>
+                                <div class="skill_item">
+                                    <div class="skill_chart">
+                                        <div class="chart_outer">
+                                            <div class="chart_inner">
+                                                <div id="chart-number">90%</div>
+                                            </div>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" heigth="130px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#f8909e"/>
+                                                    <stop offset="100%" stop-color="#f8aa9f"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="65" cy="65" r="55" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <p>JQuery</p>
+                                </div>
+                                <div class="skill_item">
+                                    <div class="skill_chart">
+                                        <div class="chart_outer">
+                                            <div class="chart_inner">
+                                                <div id="chart-number">90%</div>
+                                            </div>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" heigth="130px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#f8909e"/>
+                                                    <stop offset="100%" stop-color="#f8aa9f"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="65" cy="65" r="55" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <p>Photoshop</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SKILL -->
+        <section class="about section" id="skill">
+            <div class="about_container container">
+                <!-- <h1 class="about_title title">About Me</h1> -->
+                <div class="about_content">
+                    <div class="about_left">
+                        <!-- <div class="about_name">Kim <br>mina</div> -->
+                        <img src="./images/mina.jpg" alt="profile" class="about_img">
+                    </div>
+                    <div class="about_right">
+                        <div class="about_intro box">
+                            <h2>INTRO</h2>
+                            <p>하늘이 내린 최고의 조합, 치킨과 맥주! 매년 여름, 대구에서 치킨과 맥주의 기막힌 조합을 테마로 한 대구치맥페스티벌이 열린다. 치맥페스티벌이라는 말 그대로 축제 기간 동안 맛있는 치킨과 시원한 맥주를 마음껏 즐기며 가수들의 공연을 관람할 수 있다. 유명 치킨프렌차이즈들이 참여하기 때문에 다양한 치킨을 한자리에서 골고루 맛볼 수 있는 절호의 기회이기도 하다. 시원한 얼음물에 발을 담그고 치맥을 즐길 수 있는 공간도 마련되어 있다. 유명 가수들의 축하공연과 DJ들의 신나는 EDM파티가 열리며, 밤 9시 9분에는 모두 함께 건배를 외치는 치맥 99 건배 타임이라는 재미있는 이벤트도 진행된다.</p>
+                        </div>
+                        <div class="about_certi box">
+                            <h2>CERTIFICATES</h2>
+                            <div class="certi_container">
+                                <div class="certi_item">
+                                    <img src="./images/ico_ce.png" alt="web_design_certificate" class="certi_img">
+                                    <p>웹디자인기능사</p>
+                                </div>
+                                <div class="certi_item">
+                                    <img src="./images/ico_ce2.png" alt="computer_certificate" class="certi_img">
+                                    <p>컴퓨터활용능력1급</p>
+                                </div>
+                                <div class="certi_item">
+                                    <img src="./images/ico_ce3.png" alt="photoshop_certificate" class="certi_img">
+                                    <p>GTQ1급</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about_skill box">
+                            <h2>SKILLS</h2>
+                            <div class="skill_container">
+                                <div class="skill_item">
+                                    <div class="skill_chart">
+                                        <div class="chart_outer">
+                                            <div class="chart_inner">
+                                                <div id="chart-number">90%</div>
+                                            </div>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" heigth="130px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#f8909e"/>
+                                                    <stop offset="100%" stop-color="#f8aa9f"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="65" cy="65" r="55" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <p>HTML</p>
+                                </div>
+                                <div class="skill_item">
+                                    <div class="skill_chart">
+                                        <div class="chart_outer">
+                                            <div class="chart_inner">
+                                                <div id="chart-number">90%</div>
+                                            </div>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" heigth="130px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#f8909e"/>
+                                                    <stop offset="100%" stop-color="#f8aa9f"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="65" cy="65" r="55" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <p>CSS</p>
+                                </div>
+                                <div class="skill_item">
+                                    <div class="skill_chart">
+                                        <div class="chart_outer">
+                                            <div class="chart_inner">
+                                                <div id="chart-number">90%</div>
+                                            </div>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" heigth="130px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#f8909e"/>
+                                                    <stop offset="100%" stop-color="#f8aa9f"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="65" cy="65" r="55" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <p>JavaScript</p>
+                                </div>
+                                <div class="skill_item">
+                                    <div class="skill_chart">
+                                        <div class="chart_outer">
+                                            <div class="chart_inner">
+                                                <div id="chart-number">90%</div>
+                                            </div>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" heigth="130px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#f8909e"/>
+                                                    <stop offset="100%" stop-color="#f8aa9f"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="65" cy="65" r="55" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <p>JQuery</p>
+                                </div>
+                                <div class="skill_item">
+                                    <div class="skill_chart">
+                                        <div class="chart_outer">
+                                            <div class="chart_inner">
+                                                <div id="chart-number">90%</div>
+                                            </div>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" heigth="130px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#f8909e"/>
+                                                    <stop offset="100%" stop-color="#f8aa9f"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="65" cy="65" r="55" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <p>Photoshop</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- END MAIN -->
+
+
+
+    <!-- SCRIPT JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
