@@ -167,12 +167,12 @@ strong{
 }
 .nav{
     position: fixed;
-    width: 97%;
+    width: 100%;
     height: var(--header-heigth);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     z-index: 100;
 }
 .nav_logo{
