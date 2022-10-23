@@ -1,0 +1,378 @@
+/* DESKTOP */
+@media screen and (max-width:1023px){
+    /* HEADER */
+    .nav_list{
+        column-gap: 2rem;
+    }
+    .nav_link{
+        font-size: 1rem;
+    }
+    /* ABOUT */
+    .about_img{
+        width: 20rem;
+    }
+    .about_right h1{
+        padding-bottom: 2rem;
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    .about_right h1::before{
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background-color: #fff;
+        margin-right: .8rem;
+    }
+    .about_intro p{
+        line-height: 1.7rem;
+    }
+    .certi_item{
+        width: 7.3rem;
+        height: 6.5rem;
+        margin-right: 2.1rem;
+        font-size: .7rem;
+    }
+    .certi_img{
+        width: 3rem;
+    }
+    /* PROJECT */
+    .project_img{
+        width: 30rem;
+    }
+    .project_title{
+        font-size: 2.3rem;
+    }
+    .project_list li span:nth-child(1){
+        font-size: 1.1rem;
+        width: 105px;
+        letter-spacing: 1.5px;
+    }
+    .project_list li span:nth-child(2){
+        letter-spacing: 1px;
+    }
+    /* PROJECT MODAL */
+    .modal_bottom{
+        padding: 3rem;
+    }
+    .modal_bottom_content{
+        margin-bottom: 7rem;
+    }
+    .modal_bottom_title{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    .modal_bottom_overview{
+        font-size: .9rem;
+    }
+    .modal_bottom_reponsive{
+        flex-direction: column;
+        gap: 1rem;
+        font-size: .8rem;
+    }
+    .modal_bottom_reponsive>li>span{
+        display: inline-block;
+        width: 80px;
+        font-size: 1rem;
+    }
+    /* CLONE */
+    .clone_content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .clone_item{
+        width: 20rem;
+        height: 18rem;
+    }
+    .clone_list{
+        margin: 2.5rem 0 1.5rem;
+    }
+}
+/* TABLET */
+@media screen and (max-width:767px){
+    /* HEADER */
+    .title_center{
+        font-size: 3.5rem;
+    }
+    .title_top,
+    .title_bottom{
+        font-size: .7rem;
+    }
+    strong{
+        font-size: .9rem;
+    }
+    .nav{
+        padding: 0 1rem;
+    }
+    .nav_wrap{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(27, 27, 27, 0.9);
+        top: -100%;
+        left: 0;
+        transition: .4s;
+    }
+    .nav_menu{
+        width: 100%;
+        padding: 5rem 0;
+        border-radius: 0 0 1.5rem 1.5rem;
+        background-color: var(--first-color);
+    }
+    .nav_list{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3rem;
+    }
+    .nav_link,
+    .nav_close{
+        color: #fff;
+        font-weight: 700;
+    }
+    .nav_link:hover{
+        color: var(--body-color);
+    }
+    .nav_close{
+        display: block;
+        position: absolute;
+        font-size: 2.5rem;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+    }
+    .nav_hamburger{
+        display: block;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+    .show-menu{
+        top: 0;
+    }
+    /* ABOUT */
+    .about_content{
+        flex-direction: column;
+    }
+    .about_left{
+        flex: 1;
+        padding: 1.5rem 0;
+    }
+    .about_right{
+        flex: 2;
+    }
+    .box{
+        margin-bottom: 1.5rem;
+    }
+    .about_img{
+        width: 15rem;
+    }
+    .about_right h1{
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .about_right h1::before{
+        width: 3px;
+        height: 15px;
+        margin-right: .5rem;
+    }
+    .about_intro p{
+        font-size: .9rem;
+        line-height: 1.5rem;
+        padding-right: 1rem;
+    }
+    .certi_item{
+        width: 7rem;
+        height: 5.8rem;
+        margin-right: 2rem;
+        font-size: .7rem;
+    }
+    .certi_img{
+        width: 2.5rem;
+    }
+    /* SKILL */
+    .skill_name,
+    .skill_number{
+        letter-spacing: 1.1px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    /* PROJECT */
+    .project_content{
+        flex-direction: column;
+    }
+    .project_left,
+    .project_right{
+        flex: 1;
+    }
+    .project_img{
+        width: 25rem;
+        padding-top: 3rem;
+    }
+    .project_title{
+        font-size: 2.2rem;
+    }
+    .project_list{
+        margin: 0 0 2rem;
+    }
+    .project_list li {
+        margin: .5rem 0;
+    }
+    .project_list li span:nth-child(1){
+        width: 100px;
+        letter-spacing: 1.3px;
+    }
+    /* PROJECT MODAL */
+    .modal_top{
+        font-size: 2rem;
+    }
+    .modal_bottom{
+        padding: 2rem;
+    }
+    .modal_bottom_content{
+        margin-bottom: 7rem;
+    }
+    .modal_bottom_title{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .modal_bottom_overview{
+        font-size: .7rem;
+        line-height: .9rem;
+        margin-bottom: 1rem;
+    }
+    .modal_bottom_color{
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .modal_bottom_color>div{
+        width: 5rem;
+        height: 5rem;
+    }
+    .modal_bottom_color>div>span{
+        font-size: .8rem;
+    }
+    .modal_bottom_typography>li{
+        margin-top: .8rem;
+        font-size: .9rem;
+    }
+    .modal_bottom_typography>li:nth-child(3){
+        font-size: .7rem;
+    }
+    .modal_bottom_reponsive{
+        gap: .8rem;
+        font-size: .7rem;
+    }
+    .modal_bottom_reponsive>li>span{
+        width: 70px;
+        font-size: .9rem;
+    }
+    /* CLONE */
+    .clone_item{
+        width: 14rem;
+        height: 18rem;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width:479px){
+    /* HEADER */
+    .home_woman{
+        bottom: 5%; left: 15%;
+        background-size: 7rem;
+    }
+    /* ABOUT */
+    .about_img{
+        width: 12rem;
+    }
+    .about_right h1::before{
+        width: 3px;
+        height: 15px;
+        margin-right: .5rem;
+    }
+    .about_intro p{
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    .certi_item{
+        width: 6rem;
+        height: 5rem;
+        margin-right: 1rem;
+        font-size: .6rem;
+    }
+    .certi_img{
+        width: 2rem;
+    }
+    /* PROJECT */
+    .project_img{
+        width: 20rem;
+        padding-top: 5rem;
+    }
+    .project_title{
+        font-size: 2rem;
+    }
+    .project_list li span:nth-child(1){
+        font-size: 1.1rem;
+    }
+    /* PROJECT MODAL */
+    .modal_top{
+        font-size: 1.5rem;
+    }
+    .modal_bottom{
+        padding: 1rem 1rem 2rem 1rem;
+    }
+    .modal_bottom_content{
+        margin-bottom: 5rem;
+    }
+    .modal_bottom_title{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .modal_bottom_overview{
+        font-size: .6rem;
+    }
+    .modal_bottom_color>div{
+        width: 4rem;
+        height: 4rem;
+    }
+    .modal_bottom_color>div>span{
+        font-size: .6rem;
+    }
+    .modal_bottom_typography>li{
+        margin-top: .7rem;
+        font-size: .8rem;
+    }
+    .modal_bottom_typography>li:nth-child(3){
+        font-size: .6rem;
+    }
+    .modal_bottom_reponsive{
+        gap: .6rem;
+        font-size: .6rem;
+    }
+    .modal_bottom_reponsive>li>span{
+        width: 60px;
+        font-size: .8rem;
+    }
+    /* CLONE */
+    .clone_content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .clone_item{
+        width: 14rem;
+        height: 8rem;
+    }
+    .clone_title{
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    .clone_list{
+        letter-spacing: 1.2px;
+        margin: 1rem 0 1rem;
+    }
+    .clone_list li{
+        font-size: .8rem;
+        margin: 0;
+    }
+    .clone_btn{
+        font-size: .8rem;
+        padding: .2rem .4rem;
+    }
+}

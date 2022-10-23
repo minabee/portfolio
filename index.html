@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimmina</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- BOX ICONS -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="nav" id="nav">
+            <a href="#" class="nav_logo">KMN</a>
+            <div class="nav_wrap" id="nav-wrap">
+                <div class="nav_menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link nav-active">HOME</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">ABOUT</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skill" class="nav_link">SKILL</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#project" class="nav_link">PROJECT</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#clone" class="nav_link">CLONE</a>
+                        </li>
+                        <!-- <li class="nav_item">
+                            <a href="#animation" class="nav_link">ANIMATION</a>
+                        </li> -->
+                        <!-- <li class="nav_item">
+                            <a href="#contact" class="nav_link">CONTACT</a>
+                        </li> -->
+                    </ul>
+                    <div class="nav_close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_hamburger" id="nav-hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- HOME -->
+    <section class="home section" id="home">
+        <div class="home_title">
+            <div class="home_intro">
+                <span class="title_center">Challenger</span>
+                <span class="title_top">
+                    매일 <strong>변화</strong> 하며 <strong>성장</strong> 해나가는
+                </span>
+                <span class="title_bottom">
+                    웹퍼블리셔 <strong>김미나</strong> 입니다.
+                </span>
+            </div>
+        </div>  
+        <div class="stars"><!-- 별똥별 -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="home_grass layer home_ani"></div><!-- 잔디 -->
+        <div class="home_woman home_ani"></div><!-- 여자 -->
+        <div class=" home_grass2 layer home_ani"></div><!-- 잔디 -->
+    </section>
+    <!-- END HOME -->
+
+    <!-- ABOUT -->
+    <section class="about section bg" id="about">
+        <div class="about_container container">
+            <!-- <h1 class="about_title title">About Me</h1> -->
+            <div class="about_content content">
+                <div class="about_left">
+                    <!-- <div class="about_name">Kim <br>mina</div> -->
+                    <img src="./images/mina.jpg" alt="profile" class="about_img">
+                </div>
+                <div class="about_right">
+                    <div class="about_intro box">
+                        <h1>INTRO</h1>
+                        <p>안녕하세요. 코딩의 세계로 발돋움을 시작한 웹퍼블리셔 김미나입니다.<br>
+                            IT회사의 품질업무를 담당하며 코딩이라는 경이로운 언어를 마주하게 되었고 다양한 웹페이지를 보며 사용자의 편의를 고려하며 개성을 담아 웹페이지로 표현하고 싶었습니다.<br>
+                            가슴을 뛰게하는 이 일이 제 일이라고 확신하여 새로운 도전을 시작하였습니다.<br>
+                            먼 길을 돌아온 만큼 열정을 갖고 노력하며, 성장하는 퍼블리셔가 되겠습니다.</p>
+                    </div>
+                    <div class="about_certi box">
+                        <h1>CERTIFICATES</h1>
+                        <div class="certi_container">
+                            <div class="certi_item">
+                                <img src="./images/ico_ce.png" alt="web_design_certificate" class="certi_img">
+                                <p>웹디자인기능사</p>
+                            </div>
+                            <div class="certi_item">
+                                <img src="./images/ico_ce2.png" alt="computer_certificate" class="certi_img">
+                                <p>컴퓨터활용능력1급</p>
+                            </div>
+                            <div class="certi_item">
+                                <img src="./images/ico_ce3.png" alt="photoshop_certificate" class="certi_img">
+                                <p>GTQ1급</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- SKILL -->
+    <section class="skill section bg" id="skill">
+        <div class="skill_container container" id="skill-section">
+            <div class="skill_content content">
+                <div class="progress">
+                    <div class="progress_bar" data-progress="90">
+                        <span class="skill_name">HTML</span>
+                        <span class="skill_number">90%</span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress_bar"
+                    data-progress="90">
+                        <span class="skill_name">CSS</span>
+                        <span class="skill_number">90%</span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress_bar"
+                    data-progress="60">
+                        <span class="skill_name">JAVASCRIPT</span>
+                        <span class="skill_number">60%</span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress_bar"
+                    data-progress="70">
+                        <span class="skill_name">JQUERY</span>
+                        <span class="skill_number">70%</span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress_bar"
+                    data-progress="80">
+                        <span class="skill_name">PHOTOSHOP</span>
+                        <span class="skill_number">80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SKILL -->
+
+    <!-- PROJECT -->
+    <section class="project" id="project">
+        <div class="project_container project_d">
+            <div class="project_content content">
+                <div class="project_left">
+                    <img src="./images/pro1.png" alt="dongkook-monitor" class="project_img">
+                </div>
+                <div class="project_right">
+                    <h1 class="project_title">Dongkook</h1>
+                    <ul class="project_list">
+                        <li>
+                            <span>TYPE</span>
+                            <span>Responsive Web</span>
+                        </li>
+                        <li>
+                            <span>TOOL</span>
+                            <span>HTML,CSS,JS</span>
+                        </li>
+                        <li>
+                            <span>LIBRARY</span>
+                            <span>JQUERY, Swiper JS</span>
+                        </li>
+                        <li>
+                            <span>참여도</span>
+                            <span>개인작업 100%</span>
+                        </li>
+                    </ul>
+                    <div class="project_button">
+                        <div class="project_btn btn modal_btn">Process</div>
+                        <div class="project_btn btn"><a href="#">Website</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project_container project_h">
+            <div class="project_content content">
+                <div class="project_left">
+                    <img src="./images/pro2.png" alt="haagendarz-monitor" class="project_img">
+                </div>
+                <div class="project_right">
+                    <h1 class="project_title">Haagen-Darz</h1>
+                    <ul class="project_list">
+                        <li>
+                            <span>TYPE</span>
+                            <span>Responsive Web</span>
+                        </li>
+                        <li>
+                            <span>TOOL</span>
+                            <span>HTML,CSS,JS</span>
+                        </li>
+                        <li>
+                            <span>LIBRARY</span>
+                            <span>Swiper JS, Scroll reveal</span>
+                        </li>
+                        <li>
+                            <span>참여도</span>
+                            <span>개인작업 100%</span>
+                        </li>
+                    </ul>
+                    <div class="project_button">
+                        <div class="project_btn btn modal_btn">Process</div>
+                        <div class="project_btn btn"><a href="#">Website</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project_container project_m">
+            <div class="project_content content">
+                <div class="project_left">
+                    <img src="./images/pro3.png" alt="haagendarz-monitor" class="project_img">
+                </div>
+                <div class="project_right">
+                    <h1 class="project_title">Movie</h1>
+                    <ul class="project_list">
+                        <li>
+                            <span>TYPE</span>
+                            <span>Responsive Web</span>
+                        </li>
+                        <li>
+                            <span>TOOL</span>
+                            <span>HTML,CSS,JS</span>
+                        </li>
+                        <li>
+                            <span>LIBRARY</span>
+                            <span>Owl carousel, JQUERY</span>
+                        </li>
+                        <li>
+                            <span>참여도</span>
+                            <span>개인작업 100%</span>
+                        </li>
+                    </ul>
+                    <div class="project_button">
+                        <div class="project_btn btn modal_btn">Process</div>
+                        <div class="project_btn btn"><a href="#">Website</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END PROJECT -->
+
+    <!-- PROJECT MODAL-->
+    <div class="modal_project_d modal">
+        <div class="modal_container">
+            <div class="modal_top">
+                <div class="modal_top_title">Dongkook</div>
+                <div class="modal_top_close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="modal_bottom">
+                <div class="modal_bottom_content">
+                    <div class="modal_bottom_title">
+                        Overview
+                    </div>
+                    <div class="modal_bottom_overview">
+                        동국제약 기존 사이트의 문제점을 개선한 리뉴얼 사이트를 제작했습니다.<br>
+                        Swiper JS 라이브러리를 활용하여 메인페이지와 대표 브랜드를 구현했습니다.<br>
+                        콘텐츠가 부족한 단일 메인 페이지에 <br>동국제약의 기업이념을 더해 슬라이드 형식으로 바꾸고 브랜드의 핵심가치를 살려냈습니다. <br><br>
+                        아래의 사진은 기존 사이트의 문제점을 보완한 내용입니다.
+                    </div>
+                    <div class="modal_bottom_img">
+                        <img src="./images/modal_d.jpg" alt="동국제약" class="modal_img">
+                    </div>
+                </div>
+                <div class="modal_bottom_content">
+                    <div class="modal_bottom_title">
+                        Style Guide
+                    </div>
+                    <div class="modal_bottom_style">
+                        <div class="modal_bottom_color">
+                            <div><span>#99ca3b</span></div>
+                            <div><span>#52b8e9</span></div>
+                            <div><span>#162b4a</span></div>
+                        </div>
+                        <ul class="modal_bottom_typography">
+                            <li>home_title 56px Noto Serif</li>
+                            <li>since_title 56px Noto Serif</li>
+                            <li>tech_title 24px Noto Serif</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal_bottom_content">
+                    <div class="modal_bottom_title">
+                        Responsive
+                    </div>
+                    <ul class="modal_bottom_reponsive">
+                        <li><span>Desktop</span> width 1920px</li>
+                        <li><span>Laptop</span> width 1512px</li>
+                        <li><span>Tablet</span> width 1023px</li>
+                        <li><span>Mobile</span> width 390px</li>
+                    </ul>
+                    <div class="modal_bottom_img">
+                        <img src="./images/responsive_d.png" alt="reponsive" class="modal_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal_project_h modal">
+        <div class="modal_container">
+            <div class="modal_top">
+                <div class="modal_top_title">Haagen-Darz</div>
+                <div class="modal_top_close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="modal_bottom">
+                <div class="modal_bottom_content">
+                    <div class="modal_bottom_title">
+                        Overview
+                    </div>
+                    <div class="modal_bottom_overview">
+                        메인 페이지와 서브 페이지, 패밀리 사이트로 중복된 메뉴들과 통일되어 있지 않는 하겐다즈 사이트를 핵심만 뽑아 싱글 페이지로 리뉴얼했습니다. <br>
+                        Scroll reveal 라이브러리를 활용하여 입체감과 생동감을 주었고,<br>
+                        Swiper JS 라이브러리를 활용하여 메뉴를 손쉽게 확인 가능하도록 구현했습니다.<br>주로 grid를 사용하여 사이즈에 반응하도록 제작했습니다.
+                    </div>
+                    <div class="modal_bottom_img">
+                        <img src="./images/modal_h.jpg" alt="하겐다즈" class="modal_img">
+                    </div>
+                </div>
+                <div class="modal_bottom_content">
+                    <div class="modal_bottom_title">
+                        Style Guide
+                    </div>
+                    <div class="modal_bottom_style">
+                        <div class="modal_bottom_color">
+                            <div><span>#650b31</span></div>
+                            <div><span>#40061e</span></div>
+                            <div><span>#f8edcf</span></div>
+                        </div>
+                        <ul class="modal_bottom_typography">
+                            <li>main_font Lemon</li>
+                            <li>body_font Raleway</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal_bottom_content">
+                    <div class="modal_bottom_title">
+                        Responsive
+                    </div>
+                    <ul class="modal_bottom_reponsive">
+                        <li><span>Desktop</span> width 1920px</li>
+                        <li><span>Laptop</span> width 1512px</li>
+                        <li><span>Tablet</span> width 766px</li>
+                        <li><span>Mobile</span> width 390px</li>
+                    </ul>
+                    <div class="modal_bottom_img">
+                        <img src="./images/responsive_h.png
+                        " alt="reponsive" class="modal_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal_project_m modal">
+        <div class="modal_container">
+            <div class="modal_top">
+                <div class="modal_top_title">Movie</div>
+                <div class="modal_top_close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="modal_bottom">
+                <div class="modal_bottom_content">
+                    <div class="modal_bottom_title">
+                        Overview
+                    </div>
+                    <div class="modal_bottom_overview">
+                        Owl carousel 라이브러리를 활용하여 구현한 ott 플랫폼 사이트입니다.<br>
+                        멤버십 섹션은 부트스트랩 프레임워크와 유사한 <br> 12그리드 시스템 css를 제작하여 사이즈에 반응할 수 있도록 구현했습니다.
+                    </div>
+                    <div class="modal_bottom_img">
+                        <img src="./images/modal_m.jpg" alt="무비">
+                    </div>
+                </div>
+                <div class="modal_bottom_content">
+                    <div class="modal_bottom_title">
+                        Style Guide
+                    </div>
+                    <div class="modal_bottom_style">
+                        <div class="modal_bottom_color">
+                            <div><span>#FF1493</span></div>
+                            <div><span>#181616</span></div>
+                            <div><span>#221F1F</span></div>
+                        </div>
+                        <ul class="modal_bottom_typography">
+                            <li>body_font Noto Sans KR</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal_bottom_content">
+                    <div class="modal_bottom_title">
+                        Responsive
+                    </div>
+                    <ul class="modal_bottom_reponsive">
+                        <li><span>Desktop</span> width 1920px</li>
+                        <li><span>Laptop</span> width 1512px</li>
+                        <li><span>Tablet</span> width 850px</li>
+                        <li><span>Mobile</span> width 390px</li>
+                    </ul>
+                    <div class="modal_bottom_img">
+                        <img src="./images/responsive_m.png" alt="reponsive" class="modal_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END PROJECT MODAL -->
+
+
+    <!-- CLONE -->
+    <section class="clone section bg2" id="clone">
+        <div class="clone_container container">
+            <div class="clone_content content">
+                <div class="clone_item">
+                    <img src="./images/clone4.png" alt="clone4_screenshot" class="clone_img">
+                    <div class="clone_description">
+                        <h1 class="clone_title">
+                            Christmas
+                        </h1>
+                        <ul class="clone_list">
+                            <li>Responsive web</li>
+                            <li>Main</li>
+                            <li>HTML, CSS, JS</li>
+                        </ul>
+                        <div class="clone_button">
+                            <a href="#" class="clone_btn btn">Source code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clone_item">
+                    <img src="./images/clone3.png" alt="clone4_screenshot" class="clone_img">
+                    <div class="clone_description">
+                        <h1 class="clone_title">
+                            Music
+                        </h1>
+                        <ul class="clone_list">
+                            <li>Responsive web</li>
+                            <li>Main + Sub*2</li>
+                            <li>HTML, CSS, JS</li>
+                        </ul>
+                        <div class="clone_button">
+                            <a href="#" class="clone_btn btn">Source code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clone_item">
+                    <img src="./images/clone1.png" alt="clone4_screenshot" class="clone_img">
+                    <div class="clone_description">
+                        <h1 class="clone_title">
+                            Cinema
+                        </h1>
+                        <ul class="clone_list">
+                            <li>Fixed web</li>
+                            <li>Main</li>
+                            <li>HTML, CSS</li>
+                        </ul>
+                        <div class="clone_button">
+                            <a href="#" class="clone_btn btn">Source code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clone_item">
+                    <img src="./images/clone2.png" alt="clone4_screenshot" class="clone_img">
+                    <div class="clone_description">
+                        <h1 class="clone_title">
+                            Youtube
+                        </h1>
+                        <ul class="clone_list">
+                            <li>Responsive web</li>
+                            <li>Main</li>
+                            <li>HTML, CSS</li>
+                        </ul>
+                        <div class="clone_button">
+                            <a href="#" class="clone_btn btn">Source code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CLONE -->
+
+    <!-- SCRIPT JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
