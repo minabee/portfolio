@@ -345,7 +345,8 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .clone_item{
-        width: 10rem;
+        width: 9rem;
+        height: 15rem;
     }
     .clone_title{
         font-size: 1.2rem;
