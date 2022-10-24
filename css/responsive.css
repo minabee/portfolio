@@ -253,9 +253,6 @@
         margin-top: .8rem;
         font-size: .9rem;
     }
-    .modal_bottom_typography>li:nth-child(3){
-        font-size: .7rem;
-    }
     .modal_bottom_reponsive{
         gap: .8rem;
         font-size: .7rem;
@@ -335,13 +332,6 @@
     .modal_bottom_color>div>span{
         font-size: .6rem;
     }
-    .modal_bottom_typography>li{
-        margin-top: .7rem;
-        font-size: .8rem;
-    }
-    .modal_bottom_typography>li:nth-child(3){
-        font-size: .6rem;
-    }
     .modal_bottom_reponsive{
         gap: .6rem;
         font-size: .6rem;
@@ -352,11 +342,10 @@
     }
     /* CLONE */
     .clone_content{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .clone_item{
-        width: 14rem;
-        height: 8rem;
+        width: 10rem;
     }
     .clone_title{
         font-size: 1.2rem;
